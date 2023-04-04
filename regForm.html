@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    \
+    <link rel="stylesheet" href="Reg Design.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Title"><strong>CREATE YOUR ACCOUNT WITH US:</strong></div>
+    <form action="#">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details"><strong>FirstName</strong></span>
+                <input type="text" placeholder="Enter Your Name" required>
+            </div>
+            <div class="input-box">
+                <span class="details"><strong>LastName</strong></span>
+                <input type="text" placeholder="Enter Your lastName" required>
+            </div>
+            <div class="input-box">
+                <span class="details"><strong>EmailAddress</strong></span>
+                <input type="text" placeholder="Enter Your Email" required>
+            </div>
+            <div class="input-box">
+                <span class="details"><strong>PhoneNumber</strong></span>
+                <input type="number" placeholder="Enter Your Number" required>
+            </div>
+            
+            <div class="input-box">
+                <span class="details"><strong>Create Password</strong></span>
+                <input type="text" placeholder="Enter Your Password" required>
+            </div>
+
+            <div class="input-box">
+                <span class="details"><strong>CountryCode</strong></span>
+                <input type="number" placeholder="Nigeria(+234)" required>
+            </div>
+            <div class="input-box">
+                <span class="details"><strong>Date of Birth</strong></span>
+                <input type="date" placeholder="datetime" required>
+            </div>
+            <br>
+            <label for="fname"><STRONG>Location</STRONG></label><br>
+            <select name = "dropdown" class="location">
+                <option value = "MALE" selected>AFRICA</option>
+                <option value = "FEMALE">EUROPE</option>
+                <option value = "FEMALE">ASIA</option>
+                <option value = "FEMALE">NORTH AMERICA</option>
+                <option value = "FEMALE">AUSTRALIA</option>
+             </select>
+           
+        <div class="line">
+        <hr>
+        <label for="fname"><STRONG>GENDER:</STRONG></label><br>
+        <select name = "dropdown" class="drop">
+            <option value = "MALE" selected>MALE</option>
+            <option value = "FEMALE">FEMALE</option>
+         </select>
+        </div>
+        <!--<label class="nation"><STRONG>NATIONALITY:</STRONG></label><br>
+        <select name = "dropdown" class="country">
+            <option value = "MALE" selected>NIGERIA</option>
+            <option value = "FEMALE">UNITED STATES</option>
+            <option value = "FEMALE">SWITZERLAND</option>
+            <option value = "FEMALE">CHINA</option>
+            <option value = "FEMALE">AUSTRIA</option>
+         </select>-->
+         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label class="notify"><strong>I would like to recieve Notifications</strong></label>
+        </div>
+         
+       <!---- <div class="Gender-details">
+         <span class="gender-title"><strong>Gender</strong></span>  
+         <div class="category">
+            <label for="">
+                <span class="dot-one"></span>
+                <span class="gender">Male</span>
+            </label>
+            <label for="">
+                <span class="dot-one"></span>
+                <span class="gender">Female</span>
+            </label>
+         </div>
+        </div>--> 
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label class="browser"><strong>I want emails and browser alerts</strong></label>
+        <div class="button">
+            <input type="submit" value="REGISTER">
+        </div>
+    </form> 
+    </div>  
+</body>
+</html>
